@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Добавление элемента в ToDo -->
+     <div>
+    <label>Введите текст нового ToDo</label>
+    <input type="text" id="addText" name="Todo" placeholder="вводимый текст">
+    <button id="AddBut" name="send" onclick="AddFunc()">Добавить</button>
+    <br>
+    <!-- Удаление элемента в ToDo -->
+    <label>Введите номер Todo-са, который хотите удалить</label>
+    <input type="text" id="RemoveNum" name="Remove" placeholder="номер удаляемого элемента">
+    <button id="RemoveBut" name="sendRem" onclick="RemoveFunc()">Удалить</button>
+    <br>
+    <!-- Редактирование элемента -->
+    <label>Введите номер поля, которое хотите отредактировать, а в следующем поле --- новое значение</label>
+    <br>
+    <input type="text" id="NumEdit" placeholder="номер изменяемого элемента">
+    <input type="text" id="EditText" placeholder="новое значение">
+    <button id="EditBut" name="sendEdit" onclick="EditFunc()">Отредактировать</button>
+    <div id="array">
+        
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

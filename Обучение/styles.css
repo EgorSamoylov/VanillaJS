@@ -1,0 +1,14 @@
+body{
+    color: yellow;
+}
+label{
+    color: black;
+}
+div{
+    margin: auto;
+}
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
